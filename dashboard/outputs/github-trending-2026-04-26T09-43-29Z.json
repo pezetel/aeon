@@ -1,0 +1,219 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-04-26"
+      },
+      "children": [
+        "top_pick_section",
+        "sep1",
+        "ai_ml_section",
+        "sep2",
+        "infra_section",
+        "sep3",
+        "footer"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_heading",
+        "mattpocock_top",
+        "top_pick_desc"
+      ]
+    },
+    "top_pick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "mattpocock_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mattpocock/skills",
+        "href": "https://github.com/mattpocock/skills",
+        "source": "GitHub"
+      }
+    },
+    "top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Skills-as-portable-artifacts is the dev story of the week — Pocock just made it concrete by publishing his .claude directory.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai_ml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_heading",
+        "repo_mattpocock_skills",
+        "repo_davila_templates"
+      ]
+    },
+    "ai_ml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo_mattpocock_skills": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_mattpocock",
+        "meta_mattpocock",
+        "desc_mattpocock"
+      ]
+    },
+    "link_mattpocock": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mattpocock/skills",
+        "href": "https://github.com/mattpocock/skills",
+        "source": "GitHub"
+      }
+    },
+    "meta_mattpocock": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,139t (21k total) · Shell · [ACCELERATING]",
+        "variant": "muted"
+      }
+    },
+    "desc_mattpocock": {
+      "type": "Text",
+      "props": {
+        "text": "4.5x baseline velocity; devs are forking entire Claude Code workflows verbatim.",
+        "variant": "body"
+      }
+    },
+    "repo_davila_templates": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_davila",
+        "meta_davila",
+        "desc_davila"
+      ]
+    },
+    "link_davila": {
+      "type": "StoryLink",
+      "props": {
+        "title": "davila7/claude-code-templates",
+        "href": "https://github.com/davila7/claude-code-templates",
+        "source": "GitHub"
+      }
+    },
+    "meta_davila": {
+      "type": "Text",
+      "props": {
+        "text": "★ 87t (25k total) · Python · [ACCELERATING]",
+        "variant": "muted"
+      }
+    },
+    "desc_davila": {
+      "type": "Text",
+      "props": {
+        "text": "CLI to scaffold and monitor Claude Code setups — pairs with the skills-publishing trend.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infra_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra_heading",
+        "repo_posthog"
+      ]
+    },
+    "infra_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "repo_posthog": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_posthog",
+        "meta_posthog",
+        "desc_posthog"
+      ]
+    },
+    "link_posthog": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PostHog/posthog",
+        "href": "https://github.com/PostHog/posthog",
+        "source": "GitHub"
+      }
+    },
+    "meta_posthog": {
+      "type": "Text",
+      "props": {
+        "text": "★ 471t (34k total) · Python · [RETURNING]",
+        "variant": "muted"
+      }
+    },
+    "desc_posthog": {
+      "type": "Text",
+      "props": {
+        "text": "33k-star analytics suite spiking ~32x its baseline velocity today; likely a release or HN moment.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 3/13",
+        "variant": "caption"
+      }
+    }
+  }
+}
