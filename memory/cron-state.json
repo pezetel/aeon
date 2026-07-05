@@ -1,15 +1,15 @@
 {
   "heartbeat": {
     "last_dispatch": "2026-07-05T01:14:18Z",
-    "last_status": "dispatched",
+    "last_status": "failed",
     "last_success": "2026-04-26T14:33:22Z",
-    "total_runs": 912,
+    "total_runs": 913,
     "total_successes": 14,
-    "total_failures": 898,
-    "consecutive_failures": 898,
+    "total_failures": 899,
+    "consecutive_failures": 899,
     "success_rate": 0.02,
-    "last_failed": "2026-07-04T23:29:09Z",
-    "last_error": "e5f39c1\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
+    "last_failed": "2026-07-05T01:14:33Z",
+    "last_error": "b41106f\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
   },
   "github-trending": {
     "last_dispatch": "2026-07-05T01:14:18Z",
