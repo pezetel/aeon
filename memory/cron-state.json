@@ -13,14 +13,14 @@
   },
   "github-trending": {
     "last_dispatch": "2026-08-18T03:51:14Z",
-    "last_status": "dispatched",
+    "last_status": "failed",
     "last_success": "2026-04-26T09:44:15Z",
-    "total_runs": 1674,
+    "total_runs": 1675,
     "total_successes": 2,
-    "total_failures": 1672,
-    "consecutive_failures": 1672,
+    "total_failures": 1673,
+    "consecutive_failures": 1673,
     "success_rate": 0,
-    "last_failed": "2026-08-18T03:07:13Z",
+    "last_failed": "2026-08-18T03:54:39Z",
     "last_error": "service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\""
   }
 }
